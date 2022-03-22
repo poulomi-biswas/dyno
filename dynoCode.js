@@ -18,7 +18,7 @@ function dynoCode(id, host) {
         document.body.appendChild(button);
 
         modal.className = "modal bg-red-50 fixed top-0 left-0 w-full h-full p-6 z-10";
-        modal.style.display = "flex";
+        modal.style.display = "none";
         document.body.appendChild(modal);
 
         var modalBody = document.createElement("div");
