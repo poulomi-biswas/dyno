@@ -1,4 +1,4 @@
-function dynoCode(id, host) {
+function sessionCode(id, host) {
   let code = `
     let script = document.createElement("script");
     let modalOpen = false;
@@ -67,4 +67,4 @@ function dynoCode(id, host) {
   return code;
 }
 
-module.exports = dynoCode;
+module.exports = sessionCode;
